@@ -1,0 +1,74 @@
+.button {
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+    border-radius: 30px;
+}
+.flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.backdrop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}
+.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 600px;
+    background-color: orangered;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    border-radius: 30px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.flex {
+    display: flex;
+}
+.logo {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Raleway';
+}
+.text {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto';
+    margin-top: 10px;
+}
+.label {
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+.button2 {
+    width: 200px;
+    height: 75px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 200px;
+}

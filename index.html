@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="flex1">
+        <button class="button" data-modal-open>Реєстрація</button>
+    </div>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <p class="logo">Будь ласка, пройдіть реєстрацію</p>
+        <form action="" class="form">
+            <label for="" class="label">Прізвище Ім'я <br>
+                <input placeholder="Ваші Прізвище та Ім'я" type="text">
+            </label>
+            <label for="" class="label">Пошта <br>
+                <input placeholder="Ваша пошта" type="email">
+            </label>
+            <label for="" class="label">Телефон <br>
+                <input placeholder="Ваш номер" type="tel">
+            </label>
+            <p class="label">Відклик</p> 
+            <textarea name="" id="" cols="30" rows="10" class="textarea" placeholder="..."></textarea>
+            <a href="#" class="text">Умови використання</a>
+            <div class="flex">
+                <input type="checkbox">
+                <p class="label">Прочитав умови використання, та погоджуюся з ними</p>
+            </div>
+            <button type="submit" class="button2" data-modal-close>Зареєструватися</button>
+        </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
